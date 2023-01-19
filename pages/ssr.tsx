@@ -27,5 +27,8 @@ export default function SSR({ formattedDate }:propstype) {
     console.log(
       `SSR ran on ${formattedDate}. This will be logged in CloudWatch.`
     );
+    console.log(
+      `hoge`
+    );
     return { props: { formattedDate } };
   }
